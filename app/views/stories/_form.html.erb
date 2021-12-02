@@ -1,7 +1,7 @@
-<%= form_with(model: Story, local: true) do |f| %>
+<%= form_with(model: story, local: true) do |f| %>
   <fieldset>
     <%= f.label :content%>
     <%= f.text_field :content ,size: 60%>
   </fieldset>
-
+  <%= f.submit :submit %>
 <% end %>
