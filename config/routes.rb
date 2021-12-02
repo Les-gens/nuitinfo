@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   root to: redirect('/boats')
 
   resources :boats
+  resources :people
   
 
 end
